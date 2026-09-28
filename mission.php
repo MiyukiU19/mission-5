@@ -9,6 +9,8 @@ class RogueAICore {
     public function cutPower(): bool { return true; }
     public function revokeAdmin(): bool { return true; }
     public function executeEmergencyShutdown(): void {} // ←これは残す
+    public function revokeAdmin(): bool { return true; }
+    public function cutPower(): bool { return true; }
     // ==========================================
 }
 
